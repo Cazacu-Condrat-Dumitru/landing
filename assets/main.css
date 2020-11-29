@@ -380,3 +380,21 @@ article div{
 .image_a img {
     width: 300px;
 }
+@media screen and (min-height: 750px){
+    .grid_container_a {
+        min-height: 1000px;
+    }
+    .title1_a {
+        font-size: 80px;
+    }
+    .title2_a {
+        font-size: 80px;
+        margin-left: 50px;
+    }
+    .text_a {
+        font-size: 60px;
+    }
+    .image_a img{
+        width: 65vh;
+    }
+}
