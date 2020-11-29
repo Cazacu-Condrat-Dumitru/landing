@@ -8,6 +8,7 @@ body{
     padding-top: 65px;
 }
 .bgnav{
+    z-index: 2;
     background-color: #628395;
     position: fixed;
     left: 0;
@@ -222,13 +223,15 @@ article div{
     justify-content: space-between;
 }
 .item_img_s img {
-    height: 50vh;
+    height: 60vh;
 }
 
 
 /* !Reviews */
 #reviews {
-    background-image: url(../assets/photos/reviews-min\ \(1\).jpg);
+    background-image: url(../assets/photos/reviews-min.jpg);
+    background-size: contain;
+
 }
 .title_r {
     padding-top: 10px;
@@ -244,10 +247,52 @@ article div{
     grid-template-columns: auto auto;
     justify-content: space-between;
     grid-gap: 20px;
-    max-height: 100vh;
+    min-height: 100vh;
 }
 .item_img_r img {
     width: 100vh;
     height: 75vh;
 }
 
+
+/* !Eco */
+#eco {
+    margin-top: 350px;
+}
+.item_img_e {
+    position: relative;
+    height: 720px;
+    width: 100%;
+}
+.item_img_e img {
+    width: 100%;
+    height: 100%;
+}
+.order_e {
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    text-align: center;
+}
+.order_e button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(78, 78, 78, 1);
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+.order_e button {
+    cursor: pointer;
+}
+.order_e button:focus {
+    outline: none;
+}
+.item_img_e:first-child .order_e{
+    bottom: 140px;
+}
+
+/* !About us */
