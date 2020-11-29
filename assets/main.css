@@ -187,6 +187,42 @@ ul.menu li a.curent{
 }
 .item_img_c img{
     height: 25vh;
+}
 
+/** Sales */
+#sales{
+    background-image: url(../assets/photos/sbgjpg-min.jpg);
+}
+article {
+    margin-top: 137px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 70px 0 40px;
+}
+.image_s img{
+    height: 140px;
+}
+article div{
+    text-align: center;
+    color:white;
+    font-family: 'Patua One', cursive;
+}
+.left_text_s {
+    padding-left: 80px;
+}
+.right_text_s {
+    padding-right: 80px;
+}
+.grid_container_s {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.item_img_s img {
+    height: 50vh;
+}
 
 
