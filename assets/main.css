@@ -1,0 +1,143 @@
+.container{
+    max-width: 1300px;
+    margin: auto;   
+}
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding-top: 65px;
+}
+.bgnav{
+    background-color: #628395;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav{
+    display: flex;
+}
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.menu li a{  
+    display: block;
+    padding: 5px 20px;
+    margin: 15px;
+    background-color: rgba(42, 67, 45, 1);
+    border-radius: 40px;
+    color: white;   
+    text-decoration: none;
+}
+.logo{
+    height: 60px;
+    width: 100px;
+}
+.logo_img{
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-image: url("../assets/photos/deal-min.png");
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 60px;
+}
+header div{
+    width: 280px;
+    text-align: center;
+    color:red;
+    font-family: "Cooper", Times, serif;
+}
+.news {
+    background: url("../assets/photos/w-min.jpg");
+    background-size: 100% auto;
+    padding: 20px;
+    
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.grid_item {
+    width: 100%;
+}
+.item_img{
+    width: 100%;
+}
+.item_img img {
+    width: 100%;
+    height: 100%;
+    }
+.title{
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Algerian' ;
+    font-size: 50px;
+}
+.item_text{
+    color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-weight: bold;
+}
+
+ul.menu li a.curent{
+    background-color: rgba(247, 255, 237, 1);
+    color: black;
+}
+
+
+/* Partners */
+#partners{
+    background-image: url(../assets/photos/hands-min.jpg);
+    background-repeat: no-repeat;
+}
+.grid_container_p{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+    max-height: 100vh;
+}
+.partners{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.grid_photo {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+    animation: partners 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.photo img{
+    height: 19vh;
+} 
+
+
+
+
+@media screen and (min-width: 1500px) {
+    .container {
+        max-width: 1920px;
+    }
+}
