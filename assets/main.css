@@ -104,7 +104,7 @@ ul.menu li a.curent{
 }
 
 
-/* Partners */
+/* *Partners */
 #partners{
     background-image: url(../assets/photos/hands-min.jpg);
     background-repeat: no-repeat;
@@ -126,18 +126,67 @@ ul.menu li a.curent{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 3s;
-    animation: partners 2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .photo img{
     height: 19vh;
 } 
 
 
-
-
-@media screen and (min-width: 1500px) {
-    .container {
-        max-width: 1920px;
-    }
+/** Catalog  */
+#catalog{
+    background-color: grey;
+    background-repeat: no-repeat;
 }
+.grid_container_c{
+    background-color: gray;
+    padding-right: 16px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+    max-height: 100vh;
+}
+.grid_item_c {
+    width: 100%;
+}
+.item_img_c {
+    width: 100%;
+}
+.item_img_c img {
+    width: 50vh;
+    height: 10vh;
+}
+.catalog_c {
+    height: 100vh;
+}
+.grid_text_c {
+    color: rgba(42, 67, 45, 1) ;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    }
+.title_c {
+    padding-top: 60px;
+    text-align: center;
+    color: rgba(42, 67, 45, 1);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.title2_c {
+    text-align: center;
+    color: rgba(42, 67, 45, 1);
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.grid_item_c {
+    position: bottom;
+}
+.item_img_c img{
+    height: 25vh;
+
+
+
