@@ -6,6 +6,7 @@ body{
     background-color: lightgray;
     margin: 0;
     padding-top: 65px;
+    overflow-x: hidden;
 }
 .bgnav{
     z-index: 1;
