@@ -8,7 +8,7 @@ body{
     padding-top: 65px;
 }
 .bgnav{
-    z-index: 2;
+    z-index: 1;
     background-color: #628395;
     position: fixed;
     left: 0;
@@ -340,12 +340,17 @@ article div{
 #about_us{
     background-image: url(../assets/photos/BG-min.jpg);
     background-size: cover;
+    background-position: right center;
 }
 .grid_container_a{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: auto auto;
     justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+    min-height: 600px;
+
 }
 .left_item_a {
     background-color: rgba(58, 99, 62, 0.4);
@@ -373,5 +378,5 @@ article div{
     padding-top: 20px;
 }
 .image_a img {
-    /* width: 300px; */
+    width: 300px;
 }
