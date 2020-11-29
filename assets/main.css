@@ -99,11 +99,6 @@ header div{
     font-weight: bold;
 }
 
-ul.menu li a.curent{
-    background-color: rgba(247, 255, 237, 1);
-    color: black;
-}
-
 
 /* !Partners */
 #partners{
@@ -256,9 +251,6 @@ article div{
 
 
 /* !Eco */
-#eco {
-    margin-top: 350px;
-}
 .item_img_e {
     position: relative;
     height: 720px;
@@ -296,3 +288,41 @@ article div{
 }
 
 /* !About us */
+#about_us{
+    background-image: url(../assets/photos/BG-min.jpg);
+    background-size: cover;
+}
+.grid_container_a{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+.left_item_a {
+    background-color: rgba(58, 99, 62, 0.4);
+    padding: 20px 80px 20px 30px;
+}
+.right_item_a {
+    background-color: rgba(58, 99, 62, 0.4);
+}
+.title1_a {
+    color: rgba(186, 0, 0, 1);
+    font-weight: 100;
+    font-size: 40px;
+}
+.title2_a {
+    color: rgba(186, 0, 0, 1);
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 75px;
+}
+.text_a {
+    color: white;
+    font-size: xx-large;
+}
+.text6_a {
+    padding-top: 20px;
+}
+.image_a img {
+    width: 500px;
+}
