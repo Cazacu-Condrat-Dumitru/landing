@@ -104,7 +104,7 @@ ul.menu li a.curent{
 }
 
 
-/* *Partners */
+/* !Partners */
 #partners{
     background-image: url(../assets/photos/hands-min.jpg);
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ ul.menu li a.curent{
 } 
 
 
-/** Catalog  */
+/*! Catalog  */
 #catalog{
     background-color: grey;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ ul.menu li a.curent{
     height: 25vh;
 }
 
-/** Sales */
+/*! Sales */
 #sales{
     background-image: url(../assets/photos/sbgjpg-min.jpg);
 }
@@ -225,4 +225,29 @@ article div{
     height: 50vh;
 }
 
+
+/* !Reviews */
+#reviews {
+    background-image: url(../assets/photos/reviews-min\ \(1\).jpg);
+}
+.title_r {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+.grid_container_r {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 20px;
+    max-height: 100vh;
+}
+.item_img_r img {
+    width: 100vh;
+    height: 75vh;
+}
 
