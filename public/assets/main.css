@@ -308,6 +308,13 @@ article div{
     width: 100vh;
     height: 75vh;
 }
+/* !Laptop with high HDPI screen */
+@media screen and (min-height: 750px){
+    .item_img_r img{
+        width: 75vh;
+        height: 60vh;
+    }
+}
 
 
 /* !Eco */
