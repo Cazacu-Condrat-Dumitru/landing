@@ -99,13 +99,14 @@ header div{
     margin: auto;
     font-weight: bold;
 }
+/* !1080p */
 @media screen and (min-width: 1500px) {
     .container {
         max-width: 1920px;
     }
 }
 /* !Laptop with high HDPI screen */
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .container {
         max-width: 1440px;
         background-size: 100vh;
@@ -139,22 +140,21 @@ header div{
 .photo img {
     height: 19vh;
 } 
-
-/* !Laptop with high HDPI screen */
-@media screen and (min-width: 1440px) {
+/* !1080p */
+@media screen and (min-width: 1900px) {
     section {
         background-size: cover;
     }
 }
-@media screen and (min-width: 1440px) {
+/* !Laptop with high HDPI screen */
+@media screen and (max-width: 1440px) {
     .photo img {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
 }
 .grid_photo {
     margin-left: 10px;
     padding: 0;
-    /* width: 22vh; */
 }
 }
 
