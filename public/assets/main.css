@@ -136,10 +136,27 @@ header div{
     justify-content: center;
     align-items: center;
 }
-.photo img{
+.photo img {
     height: 19vh;
 } 
 
+/* !Laptop with high HDPI screen */
+@media screen and (min-width: 1440px) {
+    section {
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .photo img {
+        width: 200px;
+        height: 200px;
+}
+.grid_photo {
+    margin-left: 10px;
+    padding: 0;
+    /* width: 22vh; */
+}
+}
 
 
 /*! Catalog  */
