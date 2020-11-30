@@ -218,18 +218,13 @@ header div{
 @media screen and (min-height: 700px) {
     .item_img_c img{
         height: 20vh;
-        width: 40vh;
+        width: 35vh;
     }  
 } 
-@media screen and (min-width: 1500px) {
+/* !Laptop with high HDPI screen */
+@media screen and (min-width: 1400px) {
     .grid_text_c {
         font-size: xx-large;
-    }
-}
-@media screen and (min-width: 1500px) {
-    .catalog_c {
-        padding-top: 2%;
-        min-width: 1700px;
     }
 }
 
