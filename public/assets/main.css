@@ -263,10 +263,21 @@ article div{
 .item_img_s img {
     height: 60vh;
 }
+/* !Laptop with high HDPI screen */
 @media screen and (min-height: 850px){
     .image_s img {
         width: 40vh;
         height: 20vh;
+    }
+    .grid_item_s img {
+        width: 70vh;
+        height: 30vw;
+    }
+    .left_text_s {
+        font-size: larger;
+    }
+    .right_text_s {
+        font-size: larger;
     }
 } 
 
