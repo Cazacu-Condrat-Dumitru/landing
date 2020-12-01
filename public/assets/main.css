@@ -100,9 +100,10 @@ header div{
     font-weight: bold;
 }
 /* !1080p */
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1800px) {
     .container {
         max-width: 1920px;
+        background-size: 100vh;
     }
 }
 /* !Laptop with high HDPI screen */
@@ -142,12 +143,12 @@ header div{
 } 
 /* !1080p */
 @media screen and (min-width: 1900px) {
-    section {
+    #partners {
         background-size: cover;
     }
 }
 /* !Laptop with high HDPI screen */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .photo img {
         width: 100%;
         height: auto;
@@ -263,8 +264,25 @@ article div{
 .item_img_s img {
     height: 60vh;
 }
+/* !1080p */
+@media screen and (min-height: 900px) {
+    .image_s img {
+        width: 100%;
+        height: auto;
+    }
+    .grid_item_s img {
+        width: 100%;
+        height: auto;
+    }
+    .left_text_s {
+        font-size: 2em;
+    }
+    .right_text_s {
+        font-size: 2em;
+    }
+}
 /* !Laptop with high HDPI screen */
-@media screen and (min-height: 850px){
+/* @media screen and (max-height: 900px) {
     .image_s img {
         width: 40vh;
         height: 20vh;
@@ -279,7 +297,7 @@ article div{
     .right_text_s {
         font-size: larger;
     }
-} 
+}  */
 
 
 /* !Reviews */
@@ -305,16 +323,23 @@ article div{
     min-height: 100vh;
 }
 .item_img_r img {
-    width: 100vh;
+    width: 45vw;
     height: 75vh;
 }
-/* !Laptop with high HDPI screen */
-@media screen and (min-height: 750px){
+/* !1080p */
+@media screen and (min-height: 900px) {
     .item_img_r img{
-        width: 75vh;
-        height: 60vh;
+        min-width: 100%;
+        height: auto;
     }
 }
+/* !Laptop with high HDPI screen */
+@media screen and (max-height: 900px) {
+    .item_img_r img {
+        width: 100%;
+        height: auto;
+    }
+} 
 
 
 /* !Eco */
@@ -350,6 +375,17 @@ article div{
 .order_e button:focus {
     outline: none;
 }
+
+/* !1080p */
+@media screen and (min-height: 1080px) and (min-width: 1800px) {
+    .item_img_e {
+        min-height: 100vh;
+    }
+    .item_img_e img {
+        min-height: 100vh;
+    }
+}
+/* ! Laptop with high HDPI screen */
 @media screen and (min-height: 750px) and (min-width: 1400px){
     .container_e{
         max-width: 100vw;
@@ -357,8 +393,10 @@ article div{
     body{
         background: gray;
     }
-
     .item_img_e {
+        min-height: 100vh;
+    }
+    .item_img_e img {
         min-height: 90vh;
     }
     .item_img:first-child .order_e {
@@ -368,12 +406,6 @@ article div{
         bottom: 100px;
     }
 }
-@media screen and (min-height: 850px) and (min-width: 1700px){
-    .item_img_e {
-        min-height: 100vh;
-    }
-}
-
 
 /* !About us */
 #about_us{
@@ -389,7 +421,6 @@ article div{
     align-items: center;
     height: inherit;
     min-height: 600px;
-
 }
 .left_item_a {
     background-color: rgba(58, 99, 62, 0.4);
@@ -419,7 +450,7 @@ article div{
 .image_a img {
     width: 300px;
 }
-@media screen and (min-height: 750px){
+@media screen and (min-height: 750px) {
     .grid_container_a {
         min-height: 1000px;
     }
